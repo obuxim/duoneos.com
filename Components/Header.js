@@ -1,8 +1,8 @@
 import { React, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '@images/logo.png';
-import styled from '@styles/Header.module.css';
+import Logo from '@/images/logo.png';
+import styled from '@/styles/Header.module.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Header = () => {
