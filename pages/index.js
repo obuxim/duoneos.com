@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '@/components/Layout';
+import Layout from '../Components/Layout';
 
 const index = () => {
   return <Layout>Page Content</Layout>;
