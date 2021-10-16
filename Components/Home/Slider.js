@@ -19,9 +19,7 @@ const Slider = () => {
             <h1 className={styled.brandName}>duoneos</h1>
           </div>
           <p className={styled.brandDescription}>
-            We provide tech consultancy for your startup and offer one-stop tech solutions providing
-            services like Logo Design, UI/UX Design, Web Design, Web Application Development, Mobile
-            App Development etc.
+            We provide tech consultancy for your startup and offer one-stop tech solutions.
           </p>
         </div>
         <div className='justify-end container' style={{ flexGrow: 1 }}></div>
