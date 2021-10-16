@@ -1,6 +1,6 @@
 .get_quote {
   border-radius: 6px;
-  border: 2px solid #1a1a1a;
+  border: 2px solid var(--color-duollow);
   text-transform: capitalize;
   font-weight: 600;
   font-size: 1em;
@@ -12,4 +12,13 @@
 }
 .navToggle svg {
   cursor: pointer;
+}
+.navbar {
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: var(--color-duollow);
+  padding: 0.4rem 0;
 }

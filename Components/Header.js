@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <nav className='bg-duo'>
+    <nav className={styled.navbar}>
       <div className='container flex justify-between align-center'>
         <Link href='/'>
           <a>

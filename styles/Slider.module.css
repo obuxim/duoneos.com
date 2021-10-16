@@ -1,0 +1,46 @@
+.slider {
+  position: relative;
+  color: #fff;
+}
+.sliderContent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 575px) {
+  .sliderContent {
+    margin-top: 1rem;
+  }
+}
+.tagline,
+.brandName {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.tagline {
+  font-size: 1.2em;
+  margin-bottom: 0.3rem;
+}
+.brandName {
+  font-size: 1em;
+}
+.brandDescription {
+  font-size: 0.6em;
+  width: 50%;
+  line-height: 1.4em;
+}
+@media (min-width: 768px) {
+  .tagline {
+    font-size: 2.5em;
+  }
+  .brandName {
+    font-size: 2em;
+  }
+  .brandDescription {
+    font-size: 1em;
+  }
+}

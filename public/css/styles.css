@@ -31,8 +31,18 @@ a {
 .flex {
   display: flex;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
 .justify-between {
   justify-content: space-between;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .align-center {
   align-items: center;
